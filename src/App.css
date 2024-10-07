@@ -1,0 +1,122 @@
+background: url('https://wallpapercave.com/wp/wp2570982.jpg') no-repeat center center fixed;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('https://wallpapercave.com/wp/wp2570982.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.whole-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 50vw;
+}
+
+
+.center-wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px #000;
+}
+
+h2 {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.form {
+  list-style: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.textbox {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.textbox:focus {
+  outline: none;
+  border: 1px solid #000;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  margin: 5px 0 15px 0;
+  font-size: 14px;
+}
+
+
+.screenshot {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.gallery-container {
+  margin-top: 40px;
+}
+
+.gallery-img {
+  max-width: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
